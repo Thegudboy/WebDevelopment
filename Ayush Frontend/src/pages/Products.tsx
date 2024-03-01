@@ -86,7 +86,7 @@ function Products() {
 
                     </a>
 
-                    <span>E-Commerce</span>
+                    <span>Computech</span>
                     <i className="fa-solid fa-bars"></i>
                 </div>
                 <div className={"Pr-btn"}>

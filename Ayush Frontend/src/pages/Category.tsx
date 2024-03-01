@@ -57,16 +57,16 @@ const Category: React.FC = () => {
                         <img width={100} src={"../images/Logo.png"} alt="Logo"/>
                     </a>
                 </div>
-                <div className={'ct-btn_before'}>
-                    <button>Brands</button>
-                    <button>Categories</button>
-                    <Link to="/Contactus">
-                        <button>Contact Us</button>
-                    </Link>
-                    <Link to="/Aboutus">
-                        <button>About Us</button>
-                    </Link>
-                </div>
+                {/*<div className={'ct-btn_before'}>*/}
+                {/*    <button>Brands</button>*/}
+                {/*    <button>Categories</button>*/}
+                {/*    <Link to="/Contactus">*/}
+                {/*        <button>Contact Us</button>*/}
+                {/*    </Link>*/}
+                {/*    <Link to="/Aboutus">*/}
+                {/*        <button>About Us</button>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
 
                 <div className={'ctgr-searchbar'}>
                     <input type={'text'} placeholder={'Search Product'}/>
@@ -119,64 +119,64 @@ const Category: React.FC = () => {
                     )}
                 </div>
             </div>
-            <div className={'ctgr-footer'}>
-                <div className={'ctgr-get-help'}>
-                    <h1>GET HELP</h1>
-                    <Link to="/Customercare">
-                        <button>Customer Care</button>
-                    </Link>
-                    <Link to="/Payment">
-                        <button>Payment Options</button>
-                    </Link>
-                    <Link to="/returnandrefundpolicy">
-                        <button>Return and Refund Policy</button>
-                    </Link>
-                    <Link to="/PrivacyPolicy">
-                        <button>Privacy Policy</button>
-                    </Link>
-                    <Link to="/Termsandcondition">
-                        <button>Terms and Conditions</button>
-                    </Link>
-                    <span>@2023 Lugahub Pvt. Ltd. All Rights Reserved</span>
-                </div>
-                <div className={'ctgr-about-us'}>
-                    <h1>LUGAHUB</h1>
-                    <Link to="/Aboutus">
-                        <button>About Us</button>
-                    </Link>
-                    <Link to="/Contactus">
-                        <button>Contact Us</button>
-                    </Link>
-                    <Link to="/Careers">
-                        <button>Careers</button>
-                    </Link>
-                </div>
-                <div className={'ctgr-logos'}>
-                    <span>Connect with us:</span>
-                    <a
-                        href="https://www.facebook.com/profile.php?id=61555012223662&is_tour_dismissed=true"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img width={43} src={'images/fb.png'} alt="Facebook"/>
-                    </a>
+            {/*<div className={'ctgr-footer'}>*/}
+            {/*    <div className={'ctgr-get-help'}>*/}
+            {/*        <h1>GET HELP</h1>*/}
+            {/*        <Link to="/Customercare">*/}
+            {/*            <button>Customer Care</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/Payment">*/}
+            {/*            <button>Payment Options</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/returnandrefundpolicy">*/}
+            {/*            <button>Return and Refund Policy</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/PrivacyPolicy">*/}
+            {/*            <button>Privacy Policy</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/Termsandcondition">*/}
+            {/*            <button>Terms and Conditions</button>*/}
+            {/*        </Link>*/}
+            {/*        <span>@2023 Lugahub Pvt. Ltd. All Rights Reserved</span>*/}
+            {/*    </div>*/}
+            {/*    <div className={'ctgr-about-us'}>*/}
+            {/*        <h1>LUGAHUB</h1>*/}
+            {/*        <Link to="/Aboutus">*/}
+            {/*            <button>About Us</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/Contactus">*/}
+            {/*            <button>Contact Us</button>*/}
+            {/*        </Link>*/}
+            {/*        <Link to="/Careers">*/}
+            {/*            <button>Careers</button>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
+            {/*    <div className={'ctgr-logos'}>*/}
+            {/*        <span>Connect with us:</span>*/}
+            {/*        <a*/}
+            {/*            href="https://www.facebook.com/profile.php?id=61555012223662&is_tour_dismissed=true"*/}
+            {/*            target="_blank"*/}
+            {/*            rel="noopener noreferrer"*/}
+            {/*        >*/}
+            {/*            <img width={43} src={'images/fb.png'} alt="Facebook"/>*/}
+            {/*        </a>*/}
 
-                    <a
-                        href="https://www.instagram.com/luga.hub69/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img width={43} src={'images/insta.png'} alt="Instagram"/>
-                    </a>
-                    <a
-                        href="https://www.threads.net/@luga.hub69"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img width={43} src={'images/thread.png'} alt="Threads"/>
-                    </a>
-                </div>
-            </div>
+            {/*        <a*/}
+            {/*            href="https://www.instagram.com/luga.hub69/"*/}
+            {/*            target="_blank"*/}
+            {/*            rel="noopener noreferrer"*/}
+            {/*        >*/}
+            {/*            <img width={43} src={'images/insta.png'} alt="Instagram"/>*/}
+            {/*        </a>*/}
+            {/*        <a*/}
+            {/*            href="https://www.threads.net/@luga.hub69"*/}
+            {/*            target="_blank"*/}
+            {/*            rel="noopener noreferrer"*/}
+            {/*        >*/}
+            {/*            <img width={43} src={'images/thread.png'} alt="Threads"/>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
     );
 };

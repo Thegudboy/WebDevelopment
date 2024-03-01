@@ -62,7 +62,7 @@ function AddBrand() {
                         />
 
                     </a>
-                    <span>E-commerce</span>
+                    <span>Computech</span>
                     <i className="fa-solid fa-bars"></i>
                 </div>
                 <div className={"ac-btn"}>

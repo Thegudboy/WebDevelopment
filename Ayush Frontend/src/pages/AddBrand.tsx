@@ -55,7 +55,7 @@ function AddCategory() {
                          width={100}
                          alt={"logo"}
                     />
-                    <span>E-commerce</span>
+                    <span>Computech</span>
                     <i className="fa-solid fa-bars"></i>
                 </div>
                 <div className={"ab-btn"}>
