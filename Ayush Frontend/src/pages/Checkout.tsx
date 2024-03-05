@@ -227,12 +227,9 @@ const Checkout: React.FC = () => {
                             <div className={"desc4"}>
                                 <p>Size:</p>
                                 <div className={"sizeoptions"}>
-                                    <span onClick={() => handleSizeSelection('XS')}  className={selectedSize === 'XS' ? 'selectedSize' : ''}>XS</span>
-                                    <span onClick={() => handleSizeSelection('S')}  className={selectedSize === 'S' ? 'selectedSize' : ''}>S</span>
-                                    <span onClick={() => handleSizeSelection('M')}  className={selectedSize === 'M' ? 'selectedSize' : ''}>M</span>
-                                    <span onClick={() => handleSizeSelection('L')}  className={selectedSize === 'L' ? 'selectedSize' : ''}>L</span>
-                                    <span onClick={() => handleSizeSelection('XL')}  className={selectedSize === 'XL' ? 'selectedSize' : ''}>XL</span>
-                                    <span onClick={() => handleSizeSelection('2XL')}  className={selectedSize === '2XL' ? 'selectedSize' : ''}>2XL</span>
+                                    <span onClick={() => handleSizeSelection('Normal')}  className={selectedSize === 'Normal' ? 'selectedSize' : ''}>Normal</span>
+                                    <span onClick={() => handleSizeSelection('Medium')}  className={selectedSize === 'Medium' ? 'selectedSize' : ''}>Medium</span>
+
                                 </div>
                             </div>
                             <div className={"desc5"}>

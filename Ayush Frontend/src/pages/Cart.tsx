@@ -344,11 +344,11 @@ const Cart: React.FC = () => {
                                         <button onClick={() => handleCheckout(data?.data)}>Confirm Purchase</button>
                                     </div>
                                 )}
-                                <div id={"payment-button"} className={"khalti"}>
-                                    <img src={"../images/khalti.jpg"} alt={"khalti"} width={100}/>
-                                    <p >Khalti Digital Wallet</p>
+                                {/*<div id={"payment-button"} className={"khalti"}>*/}
+                                {/*    <img src={"../images/khalti.jpg"} alt={"khalti"} width={100}/>*/}
+                                {/*    <p >Khalti Digital Wallet</p>*/}
 
-                                </div>
+                                {/*</div>*/}
                             </div>
                             <div className={"Order-summary"}>
                                 <div className={"Bill"} style={{marginTop:"70px",marginLeft:"200px" }}>
